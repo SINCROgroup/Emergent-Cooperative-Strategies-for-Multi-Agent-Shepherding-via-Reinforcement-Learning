@@ -3,7 +3,15 @@
 *Abstract: We present a decentralized reinforcement learning (RL) approach to address the multi-agent shepherding control problem, departing from the conventional assumption of cohesive target groups. 
 Our two-layer control architecture consists of a low-level controller that guides each herder to contain a specific target within a goal region, while a high-level layer dynamically selects from multiple targets the one an herder should aim at corralling and containing. Cooperation emerges naturally, as herders autonomously choose distinct targets to expedite task completion. We further extend this approach to large-scale systems, where each herder applies a shared policy, trained with few agents, while managing a fixed subset of agents.*
 
-This repository contains the numerical simulations discussed in [1], demonstrating validation examples of a learning-based approach to the shepherding control problem. In this context, a group of herder agents works to corral and contain a group of target agents within a goal region in the plane.
+This repository contains the numerical simulations discussed in 
+```
+@ARTICLE{arXiv:2411.05454,
+  author={Italo, Napolitano and Lama, Andrea and De Lellis, Francesco and di Bernardo, Mario},
+  journal={arXiv:2411.05454, 
+  title={Emergent Cooperative Strategies for Multi-Agent Shepherding via Reinforcement Learning}, 
+  year={2024}}
+```
+In this context, a group of herder agents works to corral and contain a group of target agents within a goal region in the plane.
 
 Folder organization:
 
